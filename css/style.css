@@ -10,9 +10,54 @@ html {
      but can be over-ridden as needed */
   box-sizing: inherit;
 }
-
 body {
-  background-color: gray;
-  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+}
+header {
+  display: flex;
+  justify-content: left;
+  background-color: black;
+  width: 100%;
+}
+h1{
+  display: inline-block;
+  justify-content:flex-end;
+  padding-left: 1300px;
+  
+}
+br{
+  font-weight: 500;
+  
+}
+input{
+  display: flex;
+  justify-content: flex-end;
+  border: solid 9px black;
+  
+}
+
+div#hero {
+  border: solid black;
+}
+div#discover{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  
+}
+div#trending{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-parent{
+  display: flex;
+  justify-content: space-between;
+  border: solid 15px rgb(59, 57, 57);
+  color: white;
+  background-color: rgb(59, 57, 57);
+
 }
